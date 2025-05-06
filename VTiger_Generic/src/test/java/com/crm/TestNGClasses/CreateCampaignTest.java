@@ -15,8 +15,7 @@ import com.crm.generic.baseutility.BaseClass;
 
 @Listeners(com.crm.generic.listeners.ListenerImpClass.class)
 public class CreateCampaignTest extends BaseClass{
-	
-	@Test(groups = "smoke", retryAnalyzer = com.crm.generic.listeners.RetryAnalyzerImp.class)
+	@Test(groups = "smoke")// retryAnalyzer = com.crm.generic.listeners.RetryAnalyzerImp.class)
 	public void createCampaign() throws Throwable {
 		
 		WebElement MoreEle = driver.findElement(By.linkText("More"));
