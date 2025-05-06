@@ -16,7 +16,7 @@ import com.crm.generic.baseutility.BaseClass;
  * author mamatha
  * 
  */
-public class CreateOrganizationTest extends BaseClass {
+public class CreateOrganization_Test extends BaseClass {
 	
 	@Test(groups = "regression") //retryAnalyzer = com.crm.generic.listeners.RetryAnalyzerImp.class)
 	public void createOrganization() throws Throwable {
