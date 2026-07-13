@@ -13,7 +13,7 @@ import com.crm.generic.ObjectRepository.OrganizationsPage;
 import com.crm.generic.baseutility.BaseClass;
 
 @Listeners(com.crm.generic.listeners.ListenerImpClass.class)
-public class CreateContactTest extends BaseClass {
+public class CreateContact_Test extends BaseClass {
 	@Test(groups = "smoke", retryAnalyzer = com.crm.generic.listeners.RetryAnalyzerImp.class)
 	public void createContactWithLastName() throws Throwable {
 		
